@@ -1,0 +1,71 @@
+
+# ==========================================
+# CAMS — Rookies | Public GitHub Repository
+# ==========================================
+
+# Dependencies and build files
+**/node_modules/
+**/dist/
+coverage/
+**/.cache/
+**/.vite/
+.vercel/
+
+# Environment variables and credentials
+**/.env
+**/.env.*
+!**/.env.example
+
+# Runtime and private uploaded documents
+api/storage/
+**/storage/private/
+
+# Database backups and isolated test systems
+backups/
+.phase6-sandbox/
+
+# Historical package backups
+*.before-security-update
+*.before-security-update.*
+
+# Raw test logs (retain locally)
+*.log
+evidence/phase6/
+
+# Faculty-only document exports
+# Public sanitized copies will be prepared separately
+docs/phase7/google-docs-pdf/
+
+# Local consolidated reports
+# May contain student enrollment details
+/CAMS-*.pdf
+/CAMS-*.docx
+
+# Local archives
+*.zip
+*.tar
+*.tar.gz
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+
+# Internal Google Drive references and historical planning indexes
+docs/phase7/GOOGLE-DOCS-INDEX.md
+docs/phase7/PHASE7-DOCUMENT-INVENTORY.md
+
+# Python cache files
+**/__pycache__/
+*.pyc
+
+# Root-level historical print previews
+/CAMS-Print-Master-Working-*.pdf
