@@ -1,7 +1,7 @@
 # CAMS — Final Deployment and Manual Demonstration Record
 
 **Document:** CAMS-DEP-001  
-**Version:** 1.0 (internal record)  
+**Version:** 1.1 (internal record; responsive captures added)  
 **Record date:** 18 November 2026  
 **Team:** Rookies  
 **Simulated institution:** STHA  
@@ -60,7 +60,7 @@ The project team reported successful manual exercise of the following flows from
 | iPad/tablet | Administrator | Admission reviewed and approved | Manual report, not a device screenshot in this file |
 | Laptop | Management | Course-wise admission statistics reviewed | Manual report, not a device screenshot in this file |
 
-This does not assert exhaustive mobile/tablet coverage of every internal page. The three landing-page captures RD-01 through RD-03 may be added to the responsive screenshot register when supplied. Never mark screenshots as captured before receiving the actual files.
+This does not assert exhaustive mobile/tablet coverage of every internal page. Three genuine landing-page captures RD-01 through RD-03 were supplied on 18 November 2026 and are now included in `docs/portfolio/responsive/`. They provide landing-page layout evidence only; the reported role-specific workflows remain separately recorded team observations.
 
 ## 4. Existing formal test evidence remains authoritative
 
@@ -90,4 +90,12 @@ See [TESTING-EVIDENCE.md](TESTING-EVIDENCE.md), [EVIDENCE-INDEX.md](EVIDENCE-IND
 | `2d31237` | Reusable ngrok endpoint in Vercel rewrite |
 | `dde4ff2` | ngrok browser-warning bypass header |
 
-Later branding and documentation commits should be recorded here only after they are actually pushed.
+`a11211d` finalized CAMS branding, metadata and portfolio documentation, as confirmed by the student's successful GitHub push. The responsive screenshot files in this update are added separately.
+
+## 7. Submitted landing-page screenshots (18 Nov 2026)
+
+- [RD-01 - Android phone](responsive/RD-01-phone.jpg)
+- [RD-02 - iPad/tablet](responsive/RD-02-tablet.jpg)
+- [RD-03 - Laptop/desktop](responsive/RD-03-desktop.png)
+
+The screenshots were directly supplied by the project team and have no implication of formal faculty approval. The case-level requirement ledger remains 21 evidenced, 16 partial and five open.

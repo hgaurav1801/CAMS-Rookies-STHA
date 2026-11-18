@@ -1,23 +1,22 @@
-# CAMS — Three-Device Responsive Evidence Register
+# CAMS - Three-Device Responsive Evidence Register
 
-**Evidence IDs:** RD-01 to RD-03  
-**Date opened:** 18 November 2026  
-**Scope:** Public landing page only, as chosen for the final faculty/portfolio screenshots.
+**Evidence IDs:** RD-01 through RD-03  
+**Capture date:** 18 November 2026  
+**Public demonstration URL:** https://cams-rookies-stha.vercel.app/  
+**Evidence scope:** The public landing page on three real device classes.
 
-| ID | Device | Target capture | File to place | Current state |
-|---|---|---|---|---|
-| RD-01 | Phone | Real phone viewport, top page and navigation | `docs/portfolio/responsive/RD-01-phone.png` | NOT YET SUPPLIED |
-| RD-02 | iPad | Real tablet viewport, landing page | `docs/portfolio/responsive/RD-02-tablet.png` | NOT YET SUPPLIED |
-| RD-03 | Laptop | Desktop viewport, landing page | `docs/portfolio/responsive/RD-03-desktop.png` | NOT YET SUPPLIED |
+| ID | Device | Actual screenshot | Status |
+|---|---|---|---|
+| RD-01 | Android smartphone, Chrome | [RD-01 - Phone](responsive/RD-01-phone.jpg) | Captured - 18 Nov 2026 |
+| RD-02 | iPad/tablet, Safari | [RD-02 - Tablet](responsive/RD-02-tablet.jpg) | Captured - 18 Nov 2026 |
+| RD-03 | Laptop/desktop browser | [RD-03 - Desktop](responsive/RD-03-desktop.png) | Captured - 18 Nov 2026 |
 
-### Capture procedure
+## What these screenshots demonstrate
 
-1. Keep Docker, Express and ngrok online.
-2. Open `https://cams-rookies-stha.vercel.app/` on each actual device.
-3. Capture one unedited landing-page screenshot on each; avoid account names and personal email addresses.
-4. Save under the filenames above. Remove or crop browser tabs with private details, but do not alter application content.
-5. Update the state to `CAPTURED — [actual date]` and link the file in the main README or evidence index.
+The images show the live, publicly deployed CAMS landing page rendered on a phone, tablet, and laptop. They provide visual evidence of the **public landing page layout** on three screen classes. The originals are supplied by the project team; no application content has been altered.
 
-These three screenshots support the limited claim that **the public landing page was shown on phone, tablet and desktop**. They are not sufficient proof of comprehensive responsive testing of every page. Earlier J-01–J-10 screenshots already document the implemented application screens, and separate recorded tests substantiate the backend logic.
+They do **not** individually prove that every internal page or protected role workflow was tested on every device. The multi-device workflow was separately reported by the team (phone student draft, iPad administrator approval, laptop management statistics). Additional integration/security verification appears in [the test evidence index](TESTING-EVIDENCE.md), while implemented screen views J-01 to J-10 remain in `docs/phase7/screenshots/`.
 
-**Do not fabricate these files or label them as captured until actual device screenshots exist.**
+## Publication note
+
+The repository contains these three screen captures only. Team enrollment numbers, credentials, private uploaded documents, session cookies, and database exports are intentionally excluded from the public screenshot evidence.

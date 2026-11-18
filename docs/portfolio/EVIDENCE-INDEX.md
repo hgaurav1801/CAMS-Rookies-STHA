@@ -217,6 +217,7 @@ No unexecuted test is represented as passed.
 - [Final Vercel, ngrok and multi-device verification record](FINAL-DEMO-VERIFICATION.md)
 - [Three-terminal future demo guide](DEMO-STARTUP.md)
 - [Three-device responsive capture register](RESPONSIVE-SCREENSHOT-REGISTER.md)
+- [Android phone screenshot](responsive/RD-01-phone.jpg) · [iPad screenshot](responsive/RD-02-tablet.jpg) · [Desktop screenshot](responsive/RD-03-desktop.png)
 - [Live Vercel frontend](https://cams-rookies-stha.vercel.app/)
 
 The frontend is published independently; API requests require local MacBook services and a running ngrok tunnel. Verified checkpoints should not be confused with uninterrupted public backend uptime. Team-reported multi-device workflows are not formal faculty acceptance.

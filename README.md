@@ -47,6 +47,8 @@ The frontend remains hosted on Vercel. Backend-driven features work **only while
 
 ![CAMS project social-preview graphic](web/public/og-cams.png)
 
+**Three-device landing-page proof:** [Phone](docs/portfolio/responsive/RD-01-phone.jpg) | [iPad/tablet](docs/portfolio/responsive/RD-02-tablet.jpg) | [Desktop](docs/portfolio/responsive/RD-03-desktop.png). These show the public landing page, not complete cross-device functional coverage.
+
 ---
 
 ## 2. Technology Stack
