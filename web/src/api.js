@@ -6,7 +6,7 @@ export class ApiError extends Error {
 export async function api(path, options={}) {
   const { method='GET', body, blob=false }=options;
   const form=body instanceof FormData;
-  const headers={};
+  const headers={'ngrok-skip-browser-warning':'1'};
   if(body!==undefined && !form) headers['Content-Type']='application/json';
   if(!['GET','HEAD'].includes(method) && csrfToken) headers['X-CSRF-Token']=csrfToken;
   const response=await fetch(path,{method,body:body===undefined?undefined:(form?body:JSON.stringify(body)),headers,credentials:'include',cache:'no-store'});
