@@ -1,0 +1,26 @@
+{
+  "name": "CAMS — College Admission Management System",
+  "short_name": "CAMS",
+  "description": "Academic admission management demonstrator by Rookies",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F8F7F3",
+  "theme_color": "#0B1F3A",
+  "icons": [
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

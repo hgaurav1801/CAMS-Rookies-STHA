@@ -12,8 +12,10 @@
 
 > A full-stack academic project demonstrating Software Engineering principles through requirements analysis, system modelling, implementation, testing, security verification and project documentation.
 
-**Project Status:** Local academic prototype implemented and tested.  
-**Deployment:** Vercel demonstration deployment planned.
+**Project Status:** Implemented and verified academic prototype; eight Waterfall phases internally completed.  
+**Deployment:** React frontend deployed to Vercel; Express and MySQL run on the developer's Mac and are reachable through a reusable ngrok HTTPS domain when the laptop and tunnel are on.  
+**Live demonstration:** https://cams-rookies-stha.vercel.app/  
+**GitHub:** https://github.com/hgaurav1801/CAMS-Rookies-STHA
 
 ---
 
@@ -39,6 +41,12 @@ The project follows the Waterfall Software Development Life Cycle, with each pha
 
 **Important:** Rookies and STHA are simulated organizations created for this academic project. All applicant information is fictional.
 
+### [Launch the CAMS public website](https://cams-rookies-stha.vercel.app/)
+
+The frontend remains hosted on Vercel. Backend-driven features work **only while the MacBook, Docker/MySQL, Node/Express and ngrok tunnel are online**. The application is not a production deployment and the URL alone does not guarantee API availability. For a live interview, see [3-terminal demo instructions](docs/portfolio/DEMO-STARTUP.md).
+
+![CAMS project social-preview graphic](web/public/og-cams.png)
+
 ---
 
 ## 2. Technology Stack
@@ -56,7 +64,8 @@ The project follows the Waterfall Software Development Life Cycle, with each pha
 | PDF generation | PDFKit |
 | Testing | Node.js Test Runner |
 | Version control | Git and GitHub |
-| Frontend deployment | Vercel (planned) |
+| Frontend deployment | Vercel (deployed) |
+| Demonstration API exposure | ngrok Free fixed development domain (laptop-hosted; not 24/7) |
 
 ---
 
@@ -459,7 +468,7 @@ Private uploads, local environment variables, database backups and raw test logs
 
 The academic project includes controlled documentation for the entire Waterfall lifecycle.
 
-The complete editable documentation is maintained separately in the project's Google Drive workspace.
+The complete editable documentation is maintained separately in the project's Google Drive workspace. The repository includes publication-reviewed engineering PDFs and test-evidence excerpts.
 
 Repository publication of individual report PDFs and engineering evidence is subject to a privacy and content review.
 
@@ -473,38 +482,41 @@ Repository publication of individual report PDFs and engineering evidence is sub
 
 ---
 
-### Public Engineering Document Library
+## 14. Final Deployment and Handover (November 2026)
 
-The repository includes 16 engineering-document PDFs,
-organized into 14 planning/design baselines and
-2 historical testing records.
+The frontend uses an HTTPS Vercel deployment; `/api/*` is reverse-proxied to a fixed ngrok development domain, which forwards traffic to an Express API on `127.0.0.1:4000` connected to MySQL on Docker. Only the public landing site stays online while the MacBook is off.
 
-- [Browse Engineering Documents](docs/portfolio/documents/README.md)
-- [Software Engineering Evidence Index](docs/portfolio/EVIDENCE-INDEX.md)
-- [Testing and Verification Summary](docs/portfolio/TESTING-EVIDENCE.md)
-- [Recorded Test Execution Excerpts](evidence/public/PHASE6-EXECUTION-EXCERPTS.md)
+Recorded on 18 November 2026:
 
-The historical documents preserve earlier project
-states. Consult the later Phase 6 evidence for
-recorded test outcomes.
+- GitHub commit `2d31237` changed Vercel API rewrites from a temporary Cloudflare URL to the reusable ngrok address.
+- GitHub commit `dde4ff2` added `ngrok-skip-browser-warning: 1` on API requests to resolve the ngrok Free browser-interstitial HTML response.
+- Vercel `/api/health` and `/api/courses` returned HTTP 200 and valid JSON through the ngrok route.
+- The project team reported successful sign-ins to existing Student, Admin and Management accounts after the routing fix. Separately, a phone student flow, iPad admin approval and laptop management report were manually exercised.
 
-## 14. Project Limitations
+These are developer-observed demonstration checks, not external faculty acceptance or a comprehensive new acceptance-test campaign. The pre-existing case-level test register remains **21 evidenced, 16 partial, 5 open**.
+
+- [Deployment & role-verification record](docs/portfolio/FINAL-DEMO-VERIFICATION.md)
+- [How to start the live demo](docs/portfolio/DEMO-STARTUP.md)
+- [Responsive screenshot register](docs/portfolio/RESPONSIVE-SCREENSHOT-REGISTER.md)
+- [Engineering evidence index](docs/portfolio/EVIDENCE-INDEX.md)
+
+## 15. Project Limitations
 
 CAMS is a local academic demonstration, not a production admissions platform.
 
 Current limitations include:
 
-- No persistent public hosting environment.
+- The Vercel frontend is persistently hosted, but Express, private files and MySQL depend on the local MacBook and a running ngrok agent.
 - Local backend and MySQL dependency.
 - Private files stored on the local server.
 - Some planned test cases remain partially evidenced or open.
 - No independent security certification.
 
-The simulated organization and institution do not represent real institutional deployment or acceptance.
+The simulated organization and institution do not represent real institutional deployment or acceptance. ngrok Free use is limited by its account quotas and any applicable browser-warning behavior.
 
 ---
 
-## 15. Future Enhancements
+## 16. Future Enhancements
 
 Potential improvements include:
 
@@ -519,7 +531,7 @@ These are proposed improvements, not implemented functionality.
 
 ---
 
-## 16. Academic Purpose
+## 17. Academic Purpose
 
 This project demonstrates practical application of:
 

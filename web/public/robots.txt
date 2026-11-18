@@ -1,0 +1,10 @@
+# CAMS is a simulated academic admissions portal, not a real institution.
+User-agent: *
+Disallow: /api/
+Disallow: /student
+Disallow: /admin
+Disallow: /management
+Disallow: /login
+Disallow: /register
+Allow: /
+Sitemap: https://cams-rookies-stha.vercel.app/sitemap.xml

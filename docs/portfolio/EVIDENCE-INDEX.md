@@ -212,21 +212,18 @@ design references and approved screenshots.
 
 No unexecuted test is represented as passed.
 
-## Engineering Document Library
+## 13. Verified hosted demonstration
 
-The publicly selected engineering PDFs are indexed here:
+- [Final Vercel, ngrok and multi-device verification record](FINAL-DEMO-VERIFICATION.md)
+- [Three-terminal future demo guide](DEMO-STARTUP.md)
+- [Three-device responsive capture register](RESPONSIVE-SCREENSHOT-REGISTER.md)
+- [Live Vercel frontend](https://cams-rookies-stha.vercel.app/)
 
-[Browse the 16 engineering documents](documents/README.md)
+The frontend is published independently; API requests require local MacBook services and a running ngrok tunnel. Verified checkpoints should not be confused with uninterrupted public backend uptime. Team-reported multi-device workflows are not formal faculty acceptance.
 
-The collection includes the project charter,
-feasibility study, SRS, requirements traceability,
-system analysis, DFDs, software design, test strategy
-and defect-management documentation.
+An 18 November 2026 API checkpoint returned **4 approved admissions (3 CSE, 1 BCA)** and **156 available seats**. The earlier 3-approved figure in Section 8 remains a correctly labelled historical snapshot; fixture counts can change.
 
-Historical test documents are identified separately
-and should not be interpreted as current test results.
-
-## 13. Academic Scope
+## 14. Academic Scope
 
 CAMS was developed to demonstrate:
 
